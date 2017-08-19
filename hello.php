@@ -1,4 +1,4 @@
 <?php 
-echo "Hello"
-file_put_contents("php://stderr", "something happened!");
+    $strRequest = file_get_contents('php://input'); 
+    echo $strRequest;
 ?>
